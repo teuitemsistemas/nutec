@@ -1,0 +1,16 @@
+﻿Create DataBase NUTEC
+
+Go
+
+Use NUTEC
+
+Go
+
+
+Create Table Alunos(
+	IdAluno		Int Primary Key,
+	Nome		VarChar(100),
+	Endereco	VarChar(100),
+	Cidade		VarChar(50),
+	Telefone	VarChar(16),
+	Email		VarChar(50))

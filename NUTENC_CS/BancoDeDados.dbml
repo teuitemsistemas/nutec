@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="NUTEC" Class="BancoDeDadosDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(local);Initial Catalog=NUTEC;Integrated Security=True" SettingsObjectName="NUTENC_CS.Properties.Settings" SettingsPropertyName="NUTECConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Alunos" Member="Alunos">
+    <Type Name="Alunos">
+      <Column Name="IdAluno" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Endereco" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Cidade" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telefone" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
